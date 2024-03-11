@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+ background-image: url('../public/900025_3304.jpeg');
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+justify-content: space-around;
+ flex-direction: row;
+}
+.ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 1.02em;
+  transform: translateX(-110px);
+
+  list-style: none;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.sec{
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h{
+  font-size: 5.63em;
+  background: -webkit-linear-gradient(#000000e0, #8b6c16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translateX(-30px) translateY(150PX);
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.363));
+}
+.card {
+  border: 1px solid #ccc;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,84,42,1) 35%, rgba(12,13,10,1) 100%);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  color: wheat;
+  margin: 0 auto;
+}
+.card-bg{
+  background-color: #101214;
+  width:100%;
+  background-repeat: no-repeat;
+  height: 10vh;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-title {
+  font-size: 1.85rem;
+  margin-bottom: 10px;
+  filter: drop-shadow(2px 3px 0px rgba(0, 0, 0, 0.219));
+
+  
+}
+
+.card-text {
+  margin-bottom: 20px;
+  filter: drop-shadow(2px 3px 0px rgba(0, 0, 0, 0.219));
+
+}
+
+.cta-button {
+  background-color: #101214;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  filter: drop-shadow(2px 3px 0px rgba(0, 0, 0, 0.219));
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #63542a;
+}
+
+.p{
+  font-size: 2.4em;
+  
+  padding-right: 30vw;
+  margin-left: 30px;
+  text-align: left;
+  color: rgb(71, 49, 33);
+ 
+  filter: drop-shadow(2px 3px 0px rgba(0, 0, 0, 0.219));
+}
+.h2{
+  font-size: 1.93em;
+  padding-left: 30vw;
+  margin-right: 30px;
+  color: rgb(71, 49, 33);
+  text-align: right;
+
+
+
+}
+.d{
+  font-size: 2.63em;
+  margin-top: 30px;
+
+
+}
